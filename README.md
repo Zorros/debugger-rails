@@ -1,6 +1,6 @@
 # Debugger::Rails
 
-TODO: Write a gem description
+The only purpose for this tiny gem is to make it faster to use [rack-debug](http://github.com/ddollar/rack-debug) without repeating the same code in all Rails apps.
 
 ## Installation
 
@@ -12,13 +12,9 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install debugger-rails
-
 ## Usage
 
-TODO: Write usage instructions here
+Run `rake debug` after setting a breakpoing on your code and run your rails app running on Pow, Passenger, or similar.
 
 ## Contributing
 
